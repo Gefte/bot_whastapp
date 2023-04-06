@@ -40,4 +40,4 @@ def generate_gpt_response(prompt):
     return response.choices[0].text.strip()
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
